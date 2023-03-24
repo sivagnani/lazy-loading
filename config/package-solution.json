@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "lazy-loading-client-side-solution",
+    "id": "5b58d398-1386-414a-9bd3-d094672b38af",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "lazy-loading description"
+      },
+      "longDescription": {
+        "default": "lazy-loading description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "lazy-loading Feature",
+        "description": "The feature that activates elements of the lazy-loading solution.",
+        "id": "d9d3664a-0fba-49c9-8c93-a31e161ae999",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/lazy-loading.sppkg"
+  }
+}
